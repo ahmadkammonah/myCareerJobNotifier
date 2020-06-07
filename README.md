@@ -1,1 +1,1 @@
-# myCareerJobNotifier
+# Dalhousie University myCareer Job Notifier
