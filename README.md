@@ -6,6 +6,11 @@ myCareer is a Career website by Dalhousie University in Canada. This Python prog
 
 For a fully automated experience, it is perferred to use a free Linux server on Amazon Web Services (AWS) and create a cron job that runs the main.py Python Script at the desired frequency. 
 
+Crontab Example:  */30 * * * * "path to main.py" >> "path to log file" 2>&1
+
+Having a log file is optional but recommended.
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
